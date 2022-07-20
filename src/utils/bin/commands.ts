@@ -74,22 +74,22 @@ export const linkedin = async (args: string[]): Promise<string> => {
 // Search
 export const google = async (args: string[]): Promise<string> => {
   window.open(`https://google.com/search?q=${args.join(' ')}`);
-  return `Searching google for ${args.join(' ')}...`;
+  return `Recherche sur google pour ${args.join(' ')}...`;
 };
 
 export const duckduckgo = async (args: string[]): Promise<string> => {
   window.open(`https://duckduckgo.com/?q=${args.join(' ')}`);
-  return `Searching duckduckgo for ${args.join(' ')}...`;
+  return `Recherche sur duckduckgo pour ${args.join(' ')}...`;
 };
 
 export const bing = async (args: string[]): Promise<string> => {
   window.open(`https://bing.com/search?q=${args.join(' ')}`);
-  return `Wow, really? You are using bing for ${args.join(' ')}?`;
+  return `Oh, vraiment? Vous utilisez bing for ${args.join(' ')}?`;
 };
 
 export const reddit = async (args: string[]): Promise<string> => {
   window.open(`https://www.reddit.com/search/?q=${args.join(' ')}`);
-  return `Searching reddit for ${args.join(' ')}...`;
+  return `Recherhce sur reddit pour ${args.join(' ')}...`;
 };
 
 // Typical linux commands
@@ -109,7 +109,7 @@ Harder/`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
-  return `unfortunately, i cannot afford more directories.`;
+  return `Pensez-Vous que c'est un système d'exploitation ?`;
 };
 
 export const date = async (args: string[]): Promise<string> => {
@@ -117,19 +117,19 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const vi = async (args: string[]): Promise<string> => {
-  return `woah, you still use 'vi'? just try 'vim'.`;
+  return `Woah, vous utilisez toujours 'vi' ? Que diriez-vous d'essayer 'vim' ?`;
 };
 
 export const vim = async (args: string[]): Promise<string> => {
-  return `'vim' is so outdated. how about 'nvim'?`;
+  return `'vim' est tellement obsolète. Essayez 'nvim'?`;
 };
 
 export const nvim = async (args: string[]): Promise<string> => {
-  return `'nvim'? too fancy. why not 'emacs'?`;
+  return `"nvim"? trop chic. Pourquoi pas 'emacs' ?`;
 };
 
 export const emacs = async (args?: string[]): Promise<string> => {
-  return `you know what? just use vscode.`;
+  return `vous savez quoi ? Utilisez simplement vscode.`;
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
