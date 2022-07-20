@@ -41,7 +41,7 @@ Plus à propos de moi:
 
 export const cv = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
-  return 'Ouverture du  curriculum vitae...';
+  return 'Ouverture du curriculum vitae...';
 };
 
 // Donate
