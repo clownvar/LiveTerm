@@ -113,7 +113,7 @@ export const cd = async (args: string[]): Promise<string> => {
 };
 
 export const date = async (args: string[]): Promise<string> => {
-  return new Date().toString();
+  return new Date().toLocaleDateString("fr-FR", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' , hour12:true, hour:"2-digit", minute:"2-digit"});
 };
 
 export const vi = async (args: string[]): Promise<string> => {

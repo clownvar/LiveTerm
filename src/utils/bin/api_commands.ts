@@ -29,7 +29,7 @@ ${readme}`;
 export const meteo= async (args: string[]): Promise<string> => {
   const city = args.join('+');
   if (!city) {
-    return 'Utilisation : meteo [ville]. Exemple : meteo casablanca';
+    return 'Utilisation : meteo [ville]. Exemple : meteo casablanca';
   }
   const weather = await getWeather(city);
   return weather;
