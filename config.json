@@ -1,20 +1,20 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
+  "readmeUrl": "https://raw.githubusercontent.com/clownvar/clownvar/main/README.md",
+  "title": "Terminal",
+  "name": "BERCHIL Idriss",
   "ascii": "liveterm",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "clownvar",
+    "linkedin": "idriss-berchil-b86017245"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
-  "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
+  "email": "idrissberchil@fedora.email",
+  "ps1_hostname": "LiveTerm",
+  "ps1_username": "User",
+  "repo": "",
+  "resume_url": "https://mega.nz/file/YnYjkBiY#ceL-RGIQcqL7cphff1xNdylOjpu9_3cmGxe7cZvPuXMwikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "",
+    "patreon": ""
   },
   "colors": {
     "light": {
