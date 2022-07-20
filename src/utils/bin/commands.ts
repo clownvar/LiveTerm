@@ -39,7 +39,7 @@ Plus à propos de moi:
 'readme' - mon readme github.`;
 };
 
-export const CV = async (args: string[]): Promise<string> => {
+export const cv = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
   return 'Ouverture du  curriculum vitae...';
 };
